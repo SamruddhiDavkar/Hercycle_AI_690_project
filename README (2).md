@@ -141,27 +141,6 @@ docker run --runtime nvidia -it --rm --network host \
 
 **3. Open the UI** at `http://<jetson-ip>:7860` from any browser on the same network.
 
----
-
-## 📁 Repository Structure
-
-```
-project690_preliminary_Progress_Update/
-├── README.md                     ← Final findings (this file)
-├── README_project_progress.md    ← Phase 1 preliminary results (Windows CPU)
-├── load_model.ipynb              ← Model loading + weights verification
-├── inference.ipynb               ← Inference + predictions pipeline
-├── metrics.ipynb                 ← Accuracy, Precision, Recall, F1, confusion matrix
-├── Chatbot_test.ipynb            ← Chatbot speed test via the Ollama API
-├── test_images.zip               ← 10 manually downloaded food images
-└── docs/
-    ├── HerCycleAI_Presentation.pdf
-    ├── HerCycleAI_Presentation.pptx
-    └── slides/                   ← Slide images used in this README
-```
-
----
-
 ## 🔭 Next Steps — Phase 2
 
 | Goal | Plan | Expected result |
